@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.moorelifeministries"
+version="0.1"
+name="Moore Life Ministries"
+provider-name="blendenzo">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Moore Life Ministries and Faith Life Church</summary>
+  <description lang="en_GB">Watch or listen to live service, full service rebroadcasts, current and previous series, TV broadcasts, radio broadcasts and more!</description>
+  <disclaimer lang="en_GB">This plugin and the media it plays have been brought to you free of charge by the partners of Moore Life Ministries/Faith Life Church.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
